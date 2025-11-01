@@ -17,5 +17,7 @@ import callbacks.barras
 import callbacks.circular
 import callbacks.tabla
 import callbacks.barras_apiladas
+
+server= app.server
 if __name__ == '__main__':
     app.run(debug=True)
