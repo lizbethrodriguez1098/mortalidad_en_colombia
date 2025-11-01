@@ -53,7 +53,7 @@ mortalidadColombia/
 └── requirements.txt
 ```
 
-🚀 Despliegue en Render
+---
 
 ## 🚀 Despliegue en Render
 
@@ -63,13 +63,14 @@ mortalidadColombia/
 4. Elegir el repositorio del proyecto.  
 5. Configurar los siguientes parámetros:
 
-   - **Start Command:** `python app.py`  
+   - **Start Command:** `gunicorn app:server`  
    - **Environment:** `Python`  
    - **Build Command:** `pip install -r requirements.txt`
 
 6. Hacer clic en **Deploy** para publicar la aplicación.  
 7. Render generará un **enlace público** para acceder al dashboard.
 
+---
 
 ## ⚙️ Requisitos
 
@@ -81,8 +82,10 @@ dash_bootstrap_components==2.0.4
 pandas==2.3.3
 plotly==6.3.1
 openpyxl==3.1.5
+gunicorn==23.0.0
 ```
 
+---
 
 ## 🧰 Software Utilizado
 
@@ -110,6 +113,24 @@ pip install -r requirements.txt
 #### 4. Ejecutar la aplicación
 python app.py
 
+---
 
+## 📈 Visualizaciones y resultados
+
+![Image](https://github.com/faridbaron/prueba/blob/34ab17f2e6f524cfeb1ff1f371283b37254efa66/mapa.jpeg)
 
 ---
+
+## 🧠 Conclusiones
+
+Se logró desarrollar una interfaz web interactiva aplicando un caso práctico en Python mediante el uso de Dash y Plotly, consolidando conceptos de la programación como la creación de callbacks reactivos, uso de funciones para realizar la transformación de los datos de entrada consolidándolos en un solo para optimizar su uso, siguiendo las buenas prácticas para el desarrollo de software. Además, se obtuvo una integración entre la lógica de programación y la visualización de datos para lograr un dashboard interactivo para el análisis de datos.
+
+El uso de Dash y Plotly, permitió crear fácilmente dashboard dinámicos, ya que fue posible combinarlo con la programación en Python. Esto permitió crear diferentes tipos de gráficos que contribuyeron a mejorar el análisis de datos, facilitando identificar patrones, tendencias y comportamientos relacionados con la mortalidad en Colombia. Lo anterior, favorece a la interpretación que ayuda a sacar conclusiones relevantes.
+
+Por último, la transición del entorno local al web por medio de Render permitió publicar el dashboard para acceder remotamente, facilitando la disponibilidad para cualquier usuario que posea una conexión a internet. Esta implementación amplia los conocimientos sobre el uso de las herramientas para el análisis de datos, fomentando el aprendizaje practico y la capacidad de transmitir resultados de una manera efectiva y agradable.
+
+---
+
+## 👤 Autores
+
+Desarrollado por Lizbeth Natalia Rodriguez & Farid Steven Baron.
