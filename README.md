@@ -117,7 +117,10 @@ python app.py
 
 ## 📈 Visualizaciones y resultados
 
-![Image](https://github.com/faridbaron/prueba/blob/34ab17f2e6f524cfeb1ff1f371283b37254efa66/mapa.jpeg)
+<img src="https://github.com/usuario/repositorio/assets/123456789/abc123def456"
+     alt="mapa"
+     width="400"
+     style="pointer-events: none;">
 
 ---
 
