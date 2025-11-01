@@ -33,4 +33,5 @@ def actualizar_barras_sexo(departamento):
     },
     template=None 
     )
+    fig.update_layout(title_x=0.5)
     return fig

@@ -27,4 +27,5 @@ def actualizar_mapa(departamento):
         title = f"Mortalidad en {departamento}" if departamento != "TODOS" else "Mortalidad por departamento en Colombia"
     )
     fig.update_geos(fitbounds="locations", visible=False)
+    fig.update_layout(title_x=0.5)
     return fig

@@ -38,4 +38,5 @@ def actaulizar_histograma_edades(departamento):
             "Longevidad / Centenarios (85+ años)",
             "Edad desconocida"]}
         )
+    fig.update_layout(title_x=0.5)
     return fig

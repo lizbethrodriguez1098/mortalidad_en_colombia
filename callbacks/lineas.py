@@ -22,5 +22,5 @@ def actualizar_lineas(departamento):
         labels={"MES": "Mes", "NUM_MUERTES": "Número de muertes"}
     )
 
-    fig.update_layout(template="plotly_white")
+    fig.update_layout(template="plotly_white",title_x=0.5)
     return fig

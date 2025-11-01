@@ -21,6 +21,6 @@ def actualizar_pie(departamento):
     )
 
     fig.update_traces(textinfo='percent', pull=[0.05]*len(df_menor_mortalidad))
-    fig.update_layout(template="plotly_white")
+    fig.update_layout(template="plotly_white",title_x=0.5)
 
     return fig

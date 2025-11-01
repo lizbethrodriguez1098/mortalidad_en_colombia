@@ -32,5 +32,5 @@ def actualizar_barras_homicidios(departamento):
     )
 
     fig.update_traces(textposition="outside")
-    fig.update_layout(template="plotly_white", showlegend=False, xaxis_tickangle=-30)
+    fig.update_layout(template="plotly_white", showlegend=False, xaxis_tickangle=-30, title_x=0.5)
     return fig
