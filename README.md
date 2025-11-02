@@ -53,6 +53,8 @@ mortalidadColombia/
 └── requirements.txt
 ```
 
+Con respecto al proyecto, se va a manejar la versión 3.13.5 de Python. En la carpeta *callbacks*, se van a encontrar todas las funciones para la interacción del dashboard, se creó uno para cada tipo de grafica. En *data*, contiene los archivos con los datos de mortalidad del DANE 2019. *Data_processing* contiene el código para realizar la limpieza y transformación de datos. En *útil*, se tienen dos funciones que se van a utilizar en varios gráficos. Por último, se tiene en la raíz del proyecto *app.py* y *layout.py* que definen la estructura y el funcionamiento principal para el dashboard, y *README.md* y *requirements.txt* para documentación del proyecto. 
+
 ---
 
 ## ⚙️ Requisitos
